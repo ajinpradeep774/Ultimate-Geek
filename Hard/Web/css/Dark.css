@@ -1,0 +1,56 @@
+body{
+	background-image: url("../img/outdoor_restaurant_hiver_2.jpg");
+	background-size: 1370px 700px;
+	background-repeat: no-repeat;
+}
+.onediv {
+  margin-top: 150px;	
+  margin-left:500px;	
+  width: 420px;
+  height:120px;
+  align:auto;
+  background-color: rgba(0,0,0,.8);
+  text-align: left;
+  padding: 1.25em;
+  border-radius: 30px;
+}
+
+input {
+  margin: 0 0 .4em 0em;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.01);
+  border: 0;
+  border-bottom: 5px solid rgba(0,0,0,.12);
+  line-height: 30px;
+}
+#lab{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-variant: small-caps;
+    color: white;
+    }
+
+ .butn{border-radius: 5px 20px;
+ transition-duration: 1s;}
+.butn:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.butn:active {
+  background-color: #00e6e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+input[type=submit] {
+	width: 100px;
+    background-color: #00e6b8;
+    border-bottom: 3px outset  #00e6ac;
+    color: white;
+    padding: 4px 10px 6px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+input[type=email]:focus {
+    border-bottom: 3px outset  #ffff00; }  

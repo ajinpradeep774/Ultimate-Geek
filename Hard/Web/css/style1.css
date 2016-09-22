@@ -1,0 +1,155 @@
+div#content {
+    display: none;
+    }
+ 
+div#loading {
+    margin-top: 300px;
+    margin-left: 600px;
+    position: absolute;
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    background: url("../img/276.gif") no-repeat;
+    cursor: wait;
+    }
+
+body{
+	background: url("../img/restaurant_cafe_appliances_tables_chairs_interior_design_39216_1600x1200.jpg");
+	background-size: 1400px 700px;
+	background-repeat: repeat-y;
+	height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+table{
+	 padding: 10px;
+	 width:100%;
+	 border: 0px solid black;
+	 bolder-collapse:collapse;
+	}
+th{  
+     font-family: 'Ubuntu', sans-serif;
+	 font-size: 20px;
+	 border-radius: 20px;
+	 background-color:#ffe6ff;
+	 text-align:middle;
+	 height:50px;
+	 padding:10px;
+	 border-bottom: 3px solid #1a75ff;
+  }
+	
+td{  
+	 font-family: 'Nunito', sans-serif;
+	 font-size:15px; 
+ 	 border-radius: 2px;
+	 text-align:middle;
+	 height:30px;
+	 padding:10px;
+	 border-bottom: 3px solid  #9933ff;
+  }
+
+tr:hover{background-color:#ff99dd;}  
+tr:nth-child(even){background-color:#e6ffe6;}
+tr:nth-child(odd){background-color:#ffffe6;}
+
+a.link{color:#ff0000;}
+a.visited{color:#4c0099;}
+a.hover{color:#ff6600;text-decoration:underline;font-size:110%;}	
+
+p::first-letter{/*color:#ff0000;*/font-size:xx-large;}
+::selection{
+		color:#ff00bf;
+		background:#4CAF50;;
+	    } 
+#sign {
+	color:white;
+    text-shadow: 2px 2px 5px yellow;
+	padding-top:0px;
+	font-family:italic;
+	font-size:50px;
+	text-align:center;
+      }
+input[type=button] {
+    background-color: red;
+    border-bottom: 3px outset  #00e6ac;
+    color: white;
+
+    padding: 4px 10px 6px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#btn{ background-color:#ccffcc;
+	 color: red; 
+	 font-weight:bold;
+	 padding: 6px; 
+	 border-radius: 8px 4px;
+     float: right;
+     margin-top:-70px;
+     margin-right:30px; }
+
+#btn:hover { background-color: white;
+			 color: red;
+			 border-color: 2px solid blue;
+			 border-style: solid red;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#btn:active {
+  background-color: #00e6e6;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}       	    
+#first
+	{background-color: rgba(0,0,0,.5);
+	 margin-left:-10px;	
+	 width: 1368px;
+	 height: 60px;
+	 margin-top:-28px; }
+
+#container{
+	margin: auto;
+	width: 900px;
+	height: 1000px;
+	background-color: rgba(0,0,0,.6);
+	border-radius: 30px;
+}	 
+#rest_name{
+	margin-left: 20px;
+	padding: 10px;
+	color: yellow;
+	font-size: 30px;
+}
+#admin{
+	background-color: rgba(0,0,0,.8);
+	width: 1200px;
+	height: 60px;
+	border-radius: 20px;
+	padding: 20px;
+}
+#admn{ font-family: 'Nunito', sans-serif;
+	   color: white;
+	  font-size: 20px;
+	}
+input[type=number]:focus {
+    border-bottom: 5px outset  #ffccff; }
+
+input {
+  font-size: 15px;	
+  size:500px;	
+  padding: 0px 0px 0px 15px;	
+  margin: 0 0 .4em 1em;
+  height: 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.01);
+  border: 0;
+  border-bottom: 5px solid rgba(0,0,0,.12);
+  line-height: 30px;
+}    	  
